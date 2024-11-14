@@ -1,0 +1,231 @@
+body{
+    color: aliceblue;
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/2025-bmw-m4-coupe-front-three-quarters-motion-65b935ea5dde6.jpg?crop=0.748xw:0.841xh;0.151xw,0.0601xh&resize=768:*");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+   
+}
+h1{
+    
+    font-family: "Doto";
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: double;
+    border-top-style: dotted;
+    border-left-style: double;
+    border-right-style: groove;
+    border-bottom-style: ridge;
+    border-top-color: aqua;
+    border-bottom-color: coral;
+    border-left-color: darkgreen;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+
+/* #p1{
+    color: orange;
+}
+
+#p2{
+    color: yellowgreen;
+}
+
+#p3{  hashtag for id
+    color: red;
+}
+
+#p4{
+    color: blueviolet;
+} */
+
+.odd{  /* dot for class*/
+    color: darkmagenta;
+    background-color: cornsilk;
+}
+
+.even{
+    color: cornflowerblue;
+    background-color: cornsilk;
+}
+
+#chakki{
+    clear: left;
+    color: brown;
+    background-color: coral;
+    font-family: "consolas";
+    font-style: italic;
+    font-weight: 600;
+    border-style: outset;
+    border-color: chartreuse;
+    border-radius: 10px;
+    padding: 5px;
+    background: linear-gradient(to top ,rgb(78, 90, 94),white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+
+#pokkhi{
+    color: darkmagenta;
+    font-style: oblique;
+    border-style: dashed;
+    border-color: darkgreen;
+    background: linear-gradient(to top ,rgb(78, 90, 94),white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+#box1{
+    border: 5px solid;
+    color: black;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: linear-gradient(to top ,rgb(78, 90, 94),white);
+    padding: 50px;
+    margin-top: 50px;
+}
+#box2{
+    border: 5px solid;
+    color: lightcoral;
+    margin: 50px;
+    
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: linear-gradient(to top ,rgb(24, 117, 123),white);
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background: tomato;
+    font-size: 40px;
+    border-color: blueviolet;
+    float: left;
+}
+
+.box3{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    position: relative;
+    /* top: 50px; */
+    left: 50px;
+    
+}
+
+.box4{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(146, 52, 108);
+
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+
+.box5{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(130, 159, 168);
+
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    
+    transform: translate(50px,150px);
+    transform: rotate(180deg);
+    transform: scaleX(3);
+    transform: skewX(45deg);
+    transform: matrix(2,0,0,2,100,100);
+}
+
+.link{
+    a:link{
+        color: chartreuse;
+    }
+    a:hover{
+        color: antiquewhite;
+    }
+    a:active{
+        color: yellow;
+    }
+
+
+    button:hover{
+        background-color: cyan;
+    }
+
+    li:nth-child(even){
+        background-color: cyan;
+        color: brown;
+    }
+
+    li:nth-child(odd){
+        background-color: rgb(88, 178, 35);
+        color: rgba(77, 100, 125, 0.107);
+    }
+
+    
+
+}
+
+h2{
+    background-color: white;
+    color: black;
+    text-shadow: 0px 0px 5px rgb(135, 168, 25),0px -5px 5px red;
+    
+}
+h2:hover{
+    box-shadow: 5px 5px 5px cornflowerblue;
+
+}
+
+.fa-house{
+    color: blueviolet;
+    text-shadow: 5px 0px 5px red;
+}
+
+
+#box69{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(146, 52, 52);
+    font-size: 25px;
+    text-align: center;
+    /* animation: mySlide; */
+    animation: myColorChange;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    
+
+}   
+
+
+/* @keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+} */
+
+@keyframes myColorChange{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+    20%{background-color: yellow;}
+    40%{background-color: orange;}
+    60%{background-color: tomato;}
+    80%{background-color: purple;}
+    1000%{background-color: navy;}
+}
